@@ -6,7 +6,7 @@
 
 This project analyzes the relationship between Bitcoin market sentiment and trader performance on Hyperliquid. The objective is to identify how different market sentiment conditions influence trader behavior, profitability, and trading activity.
 
----
+
 
 ## Dataset
 
@@ -15,7 +15,7 @@ Two datasets were used:
 1. Bitcoin Fear & Greed Index
 2. Hyperliquid Historical Trader Data
 
----
+
 
 ## Technologies Used
 
@@ -25,7 +25,7 @@ Two datasets were used:
 - Matplotlib
 - Jupyter Notebook
 
----
+
 
 ## Methodology
 
@@ -42,7 +42,7 @@ Two datasets were used:
   - Long vs Short Analysis
   - Trader Segmentation
 
----
+
 
 ## Key Insights
 
@@ -50,23 +50,23 @@ Two datasets were used:
 - Fear periods were associated with the largest average trade sizes.
 - Neutral markets generally resulted in lower average profitability.
 
----
+
 
 ## Strategy Recommendations
 
 - Increase exposure selectively during Extreme Greed while maintaining proper risk management.
 - Reduce trading activity during Neutral market conditions and wait for stronger market signals.
 
----
+
 
 ## How to Run
 
 1. Clone this repository.
 2. Install required libraries:
 
-```
+
 pip install pandas numpy matplotlib
-```
+
 
 3. Open `analysis.ipynb` in Jupyter Notebook.
 
